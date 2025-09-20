@@ -1,6 +1,9 @@
+cd pdfsplit
+cat > .gitignore << EOL
 __pycache__/
 *.pyc
 dist/
 build/
 *.egg-info/
 *.pdf
+EOL
