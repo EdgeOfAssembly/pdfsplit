@@ -1,0 +1,21 @@
+[project]
+name = "pdfsplit"
+version = "1.0.0"
+description = "A command-line tool to split PDF files into individual pages, ranges, or chunks with customizable naming."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Stefan Fröberg", email = "haxbox2000@gmail.com"}
+]
+dependencies = [
+    "PyPDF2>=3.0.0",
+    "tqdm>=4.0.0"
+]
+
+[project.scripts]
+pdfsplit = "pdfsplit:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
