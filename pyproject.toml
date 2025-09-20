@@ -6,7 +6,7 @@
      requires-python = ">=3.6"
      license = "MIT"
      authors = [
-         {name = "Stefan Fröberg", email = "haxbox2000@gmail.com"}
+         {name = "EdgeOfAssembly", email = "haxbox2000@gmail.com"}
      ]
      dependencies = [
          "PyPDF2>=3.0.0",

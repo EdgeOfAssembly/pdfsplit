@@ -78,4 +78,4 @@ MIT License. See `LICENSE` file.
 Issues and pull requests are welcome at [https://github.com/EdgeOfAssembly/pdfsplit](https://github.com/EdgeOfAssembly/pdfsplit).
 
 ## Author
-Stefan Fröberg (haxbox2000@gmail.com)
+EdgeOfAssembly (haxbox2000@gmail.com)
