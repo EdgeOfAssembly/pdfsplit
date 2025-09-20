@@ -4,7 +4,7 @@
      description = "A command-line tool to split PDF files into individual pages, ranges, or chunks with customizable naming."
      readme = "README.md"
      requires-python = ">=3.6"
-     license = {file = "LICENSE"}
+     license = "MIT"
      authors = [
          {name = "Stefan Fröberg", email = "haxbox2000@gmail.com"}
      ]
@@ -15,6 +15,9 @@
 
      [project.scripts]
      pdfsplit = "pdfsplit.pdfsplit:main"
+
+     [tool.setuptools]
+     packages = ["pdfsplit"]
 
      [build-system]
      requires = ["setuptools>=61.0", "wheel"]
